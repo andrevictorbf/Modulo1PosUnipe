@@ -22,4 +22,29 @@ O projeto busca aplicar os conhecimentos adquiridos durante o curso, promovendo 
 
 ## Contato
 
+## Tecnologias
+  - HTML
+  - CSS
+  - Javascript
+
+## Dependências
+  - Node.JS
+  - NPM
+  - Tailwind CLI
+
+## Instalação do Tailwind CLI
+  Após instalar as dependências do NODE e do NPM, realizar o comando:
+
+  ```
+  npm i
+  ```
+
+  Durante o desenvolvimento, para transpilar as classe Tailwind para o CSS, executar o comando:
+
+  ```
+  npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+  ```
+
+  
+
 Para mais informações, entre em contato com os membros do grupo.
