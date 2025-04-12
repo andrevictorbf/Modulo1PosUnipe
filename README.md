@@ -12,7 +12,7 @@ O objetivo do grupo é colaborar no desenvolvimento de soluções web como parte
 
 ## Objetivo do Projeto
 
-O projeto busca aplicar os conhecimentos adquiridos durante o curso, promovendo aprendizado prático e trabalho em equipe.
+O projeto busca aplicar os conhecimentos adquiridos durante o curso, promovendo aprendizado prático e trabalho em equipe. O nosso foco será em uma página de produtos. 
 
 ## Estrutura do Repositório
 
