@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossa Loja Virtual - Contatos</title>
-    <link href="./output.css" rel="stylesheet">
-</head>
+    <title>Contatos - Nossa Loja Virtual</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
-    <h1 class="text-5xl">Meus Contatos</h1>
+    <header>
+        <h1>Nossa Loja Virtual</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Entre em Contato Conosco</h2>
+
+        <section class="formulario-contato">
+            <h3>Envie sua Mensagem</h3>
+            <form action="#" method="post"> <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto">
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <section class="informacoes-contato">
+            <h3>Outras Formas de Contato</h3>
+            <ul>
+                <li><strong>E-mail:</strong> contato@nossalojaesportespraia.com.br</li>
+                <li><strong>Telefone/WhatsApp:</strong> (83) 9952-8596</li>
+                <li><strong>Localização:</strong> Avenida Olinda, Número 65, Bairro Tambaú, João Pessoa - PB</li>
+                <li><a href="https://www.instagram.com/nossalojaesportespraia/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/nossalojaesportespraia/" target="_blank">Facebook</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nossa Loja Virtual - Esportes de Praia em João Pessoa</p>
+    </footer>
 </body>
 </html>
