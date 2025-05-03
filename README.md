@@ -26,24 +26,24 @@ O projeto busca aplicar os conhecimentos adquiridos durante o curso, promovendo 
 ## Tecnologias
 
 ### Front-End
-- HTML
-- CSS (Tailwind)
-- JavaScript
-- TypeScript
+- NPM
+- Node.js
 - React + Vite
+- TypeScript
+- Tailwind CSS
+- Tailwind Scrollbar
+- React Router DOM (Roteamento de páginas)
+- React Hook Form (Controle de Formulários)
+- Zod (Validação de Formulários)
+- Hookform Resolvers (Juntar o Hook Form com o Zod)
+- React Icons
+- Zustand (Persistência e Estado Global)
 
 ### Back-End
 - Spring Boot V3
 
 ### Dados
 - MySQL 8.3.0
-
-## Dependências
-
-- Node.js
-- NPM
-- Tailwind
-- React Router DOM
 
 ### 🌱 Spring Boot Starter
 - `spring-boot-starter-web`: Suporte à construção de aplicações web (RESTful APIs).

@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 // PAGES
 import Login from './pages/Login.tsx'
+import Dashboard from './pages/Dashboard.tsx'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Login />
       },
-      
+      {
+        path: "/dashboard",
+        element: <Dashboard />
+      },
     ]
   }
 ])

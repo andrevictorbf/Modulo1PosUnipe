@@ -1,12 +1,44 @@
 @import "tailwindcss";
 
+@plugin 'tailwind-scrollbar' {
+  nocompatible: true;
+  preferredStrategy: 'pseudoelements';
+}
+
+
 @theme inline {
+
+  --font-inter: Inter, sans-serif;
 
   --color-primary: #5054BF;
   --color-secondary: #C7C7C7;
   --color-secondary-variation: #AAAAAA;
   --color-secondary-variation2: #FFFBFB;
+  --color-secondary-variation3: #D9D9D9;
+  --color-tertiary: #DD2323;
+  --color-quaternary: #00FF66;
 
+}
+
+@layer {
+  /* FONT INTER */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf) format(truetype);
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf) format(truetype);
+  }
 
 }
 
